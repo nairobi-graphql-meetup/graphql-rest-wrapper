@@ -1,0 +1,29 @@
+{
+  "name": "graphql-rest-wrapper",
+  "version": "1.0.0",
+  "description": "This is a GraphQL wrapper for the SWAPI REST API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js localhost 6000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nairobi-graphql-meetup/graphql-rest-wrapper.git"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^0.3.2",
+    "apollo-server": "2.1.0",
+    "graphql": "14.0.2"
+  },
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4"
+  },
+  "author": "Joe Ng'ethe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nairobi-graphql-meetup/graphql-rest-wrapper/issues"
+  },
+  "homepage": "https://github.com/nairobi-graphql-meetup/graphql-rest-wrapper#readme"
+}
